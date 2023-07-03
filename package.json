@@ -1,0 +1,30 @@
+{
+  "name": "belabrigaderia",
+  "version": "1.0.0",
+  "description": "sistema web de gerenciamento de uma brigaderia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gerenciamento",
+    "sistema",
+    "web"
+  ],
+  "author": "Eduarda Rodrigues",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "inde.js": "^1.0.0",
+    "index.js": "^0.0.3",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.1",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "typescript": "^5.1.5"
+  }
+}

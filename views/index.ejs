@@ -1,0 +1,39 @@
+<form method="post">
+    Pesquisar: <input type="text" name="txtPesquisa" placeholder="Pesquisar">
+    <input type="submit" value="'Pesquisar">
+</form>
+<br>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>foto</th>
+        <th>deletar</th>
+    </tr>
+
+    <%for (usuario of usuarios){%>
+
+        <tr>
+            <td>
+                <%=usuario._id%>
+            </td>
+            <td>
+                <%=usuario.nome%>
+            </td>
+            <td>
+                <%=usuario.email%>
+            </td>
+            <td>
+                <%=usuario.foto%>
+            </td>
+            <td>
+                <a herf="/del/<%=usuario._id%>">Deletar</a>
+            </td>
+            <td>
+                <a herf="/edit/<%=usuario._id%>">Deletar</a>
+            </td>
+            </td>
+        </tr>
+        <% } %>
+</table>
